@@ -4,3 +4,10 @@ class Company(models.Model):
     name= models.CharField(max_length=50)
     website= models.URLField(max_length=100)
     foundation = models.PositiveIntegerField()
+
+class Products(models.Model):
+    names= models.CharField(max_length=50)
+    website= models.URLField(max_length=100)
+    foundation = models.PositiveIntegerField()
+
+
