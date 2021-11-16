@@ -1,29 +1,14 @@
 # Bienvenido a mi repositorio
 
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Introduccion](#introduccion)
-3. [Tecnologias](#tecnologias)
-
-### General Info
-***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+1. [Introduccion](#introduccion)
+2. [Tecnologias](#tecnologias)
+3. [Instalacion](#instalacion)
+4. [Mi prototipo](#mi-prototipo)
 
 ### Introduccion
 *** 
 Esto es una aplicacion donde muestra una pantalla con varios paneles o botones y se usa para que los clientes puedan informarse solo pulsando en unos de los paneles o botones y le redirige hacia la informacion que quiere ver el cliente.
-
-d
-
-d
-
-d
-
-d
-
-d
-
-d
 
 ### Tecnologias
 ***
@@ -47,13 +32,13 @@ Debes tener instalado ionic:
 Debes tener instalado node.js LTS:
 [Instalar node.js](https://nodejs.org/en/)
 
-### Instalación:
+### Instalacion:
 ***
 
 Usaremos el Visual Studio Code para trabajar, y instalar las backend y frontend que necesitamos [Tecnologias](#tecnologias)
 
 
-### **MY PROTOTYPE:**
+### **Mi prototipo:**
 ***
 
 [Imagenes del prototipo](https://github.com/shengdong99/Proyecto_django_ionic/blob/master/image.md)
