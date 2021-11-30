@@ -1,7 +1,7 @@
 
 from rest_framework.viewsets import ModelViewSet
-from .models import Category, MenuElements
-from .serializer import CategorySerializer, MenuElementSerializer
+from .models import Category, MenuElements, OtherElements
+from .serializer import CategorySerializer, MenuElementSerializer, OtherElementsSerializer
 
 
 class MenuElementViewSet(ModelViewSet):
@@ -12,11 +12,7 @@ class CategoryViewSet(ModelViewSet):
     serializer_class = CategorySerializer
     queryset = Category.objects.all()
 
-    # @detail_route(methods=['post'])
-    # def upload_docs(request):
-    #     try:
-    #         file = request.data['file']
-    #     except KeyError:
-    #         raise ParseError('Request has no resource file attached')
-    #     menuElement = MenuElements.objects.create(image=file)
+class OtherElementsViewSet(ModelViewSet):
+    serializer_class = OtherElementsSerializer
+    queryset = OtherElements.objects.all()    
 
