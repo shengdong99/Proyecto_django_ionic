@@ -44,7 +44,3 @@ img11
 
 ![img11](https://user-images.githubusercontent.com/77674793/142028884-d4284ff2-ae35-4ae2-84d4-a850005a0d79.png)
 
-img12
-
-![img12](https://user-images.githubusercontent.com/77674793/142028910-57447a19-c627-4c4e-9276-a1be60ccfdb2.png)
-
