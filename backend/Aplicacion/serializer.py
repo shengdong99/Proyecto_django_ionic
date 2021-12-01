@@ -3,7 +3,7 @@ from rest_framework.serializers import ModelSerializer
 from .models import Category, MenuElements, OtherElements
 
 class MenuElementSerializer(ModelSerializer):
-    image = serializers.ImageField(max_length=None, use_url=True)
+    file_field = serializers.FileField(max_length=None, use_url=True)
 
     class Meta :
         model = MenuElements
