@@ -10,7 +10,8 @@ class MenuElementSerializer(ModelSerializer):
         fields = '__all__'
 
 class CategorySerializer(ModelSerializer):
-
+    image_field = serializers.ImageField(max_length=None, use_url=True)
+    
     class Meta :
         model = Category
         fields = '__all__'
