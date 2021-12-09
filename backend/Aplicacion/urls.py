@@ -1,6 +1,6 @@
 # from rest_framework import settings, urlpatterns
 from rest_framework.routers import DefaultRouter
-from .views import CategoryViewSet, MenuElementViewSet, OtherElementsViewSet
+from .views import CategoryViewSet, MenuElementViewSet, OtherElementsViewSet, UserCreate
 
 from django.conf.urls.static import static
 from django.conf import settings
@@ -13,5 +13,6 @@ router.register('otherElements', OtherElementsViewSet)
 
 
 urlpatterns = [
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)),
+    path('registration/', UserCreate.as_view())
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
