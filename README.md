@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [Introduccion](#introduccion)
 2. [Tecnologias](#tecnologias)
-3. [Instalacion](#instalacion)
+3. [Documentacion](#instalacion)
 4. [Mi prototipo](#mi-prototipo)
 
 ### Introduccion
