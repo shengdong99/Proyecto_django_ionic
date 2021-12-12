@@ -152,6 +152,8 @@ Y entramos al direccion web.
 
 ![image](https://user-images.githubusercontent.com/77674793/145698360-15ac761a-f9b5-4e37-af34-7b4983dc42ad.png)
 
+![image](https://user-images.githubusercontent.com/77674793/145698380-8b80ae85-97e5-4e3c-acbf-156993a647bf.png)
+
 
 ### **Mi prototipo:**
 ***
