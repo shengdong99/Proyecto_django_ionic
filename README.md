@@ -6,7 +6,7 @@
 3. [Documentacion](#instalacion)
 4. [Mi prototipo](#mi-prototipo)
 5. [Entidad relacion](#entidad-relacion)
-
+6. [Caso de uso](#caso-de-uso)
 
 ### Introduccion
 *** 
@@ -55,8 +55,10 @@ Debes tener instalado node.js LTS:
 
 ![new ecommerce drawio](https://user-images.githubusercontent.com/77674793/146201284-3778ca1f-875d-4353-91f5-0c3ab6794c9b.png)
 
+### **Caso de uso:**
+***
 
-
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/77674793/146206811-ec84f043-0277-4711-943a-4122714bfc3c.png)
 
 
 
