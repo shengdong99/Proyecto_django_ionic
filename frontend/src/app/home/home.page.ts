@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuService } from '../service/menu.service';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  getdata:any[]=[];
+  
+  constructor( public _services: MenuService){
 
+    this._services.getdata<any[]>("").subscribe(data => {
+      this.getdata = data
+      console.log(this.getdata);
+    })
+    
+  }
 }

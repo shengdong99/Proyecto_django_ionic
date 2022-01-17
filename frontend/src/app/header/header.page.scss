@@ -1,0 +1,29 @@
+@media(min-width: 768px){
+    .mobile-header{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        background: rgb(255, 255, 255);
+        padding-left: 40px;
+        padding-right: 40px;
+        border-bottom:1px solid black;
+    }
+  }
+  
+  @media(max-width: 768px){
+    .mobile-header{
+        display: block;
+    }
+
+    .header{
+        display: none;
+    }
+  }
+
+
+.logo{
+    position: relative;
+    left: 110%;
+}

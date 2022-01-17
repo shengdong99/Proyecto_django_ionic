@@ -1,3 +1,24 @@
+<app-header></app-header>
+
 <ion-content>
-  <div class="hero"></div>
+  <app-category></app-category>
+  
+
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="12" size-sm="6" size-md="4" size-lg="3" size-xl="2" *ngFor="let menu of getdata">
+          <ion-card>
+            <img src="{{menu.file_field}}">
+            <ion-card-content>
+              <ion-label>
+                {{menu.id}}.
+                {{menu.name}}
+              </ion-label>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
 </ion-content>
+

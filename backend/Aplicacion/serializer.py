@@ -4,7 +4,7 @@ from .models import Category, MenuElements, OtherElements
 from django.contrib.auth.models import User
 
 
-class UserSerializer(ModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ('username', 'password', 'email', 'is_staff')
@@ -29,7 +29,7 @@ class MenuElementSerializer(ModelSerializer):
         fields = '__all__'
 
 class CategorySerializer(ModelSerializer):
-    image_field = serializers.ImageField(max_length=None, use_url=True)
+
     
     class Meta :
         model = Category
