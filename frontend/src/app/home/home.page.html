@@ -1,24 +1,22 @@
-<app-header></app-header>
+<div>
+  <app-header></app-header>
+  </div>
 
 <ion-content>
-  <app-category></app-category>
   
-
+  <div class="category">
+  <app-category></app-category>
+  </div>
+  <div class="menu">
     <ion-grid>
       <ion-row class="ion-justify-content-center">
-        <ion-col size="12" size-sm="6" size-md="4" size-lg="3" size-xl="2" *ngFor="let menu of getdata">
-          <ion-card>
+        <ion-col  size=5  *ngFor="let menu of getdata">
+          <ion-image>
             <img src="{{menu.file_field}}">
-            <ion-card-content>
-              <ion-label>
-                {{menu.id}}.
-                {{menu.name}}
-              </ion-label>
-            </ion-card-content>
-          </ion-card>
+          </ion-image>
         </ion-col>
       </ion-row>
     </ion-grid>
-    
+  </div>  
 </ion-content>
 

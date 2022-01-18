@@ -1,6 +1,14 @@
-ion-grid {
-    --ion-grid-padding-sm: 20px;
-    --ion-grid-padding-md: 30px;
-    --ion-grid-padding-lg: 40px;
-    --ion-grid-padding-xl: 100px;
+page-home{
+    background-color: red;
 }
+
+.menu{
+    border: 3px solid green;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    left: 29%;
+    margin-left: 25px;
+}
+
