@@ -13,6 +13,6 @@ router.register('otherElements', OtherElementsViewSet)
 
 
 urlpatterns = [
-    path('api/', include(router.urls)),
+    path('api/', include(router.urls), name='api'),
     path('registration/', UserCreate.as_view())
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
